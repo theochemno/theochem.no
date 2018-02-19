@@ -1,0 +1,6 @@
+1) how to easily add new paragraphs into WELCOME
+2) how to eaily make the changes publicly available (git push)
+3) how to insert html into welcome.yml (cp welcome.yml.2 welcome.yml)
+4) how to easily add new publications 
+5) how to easily modify the format of publications (uncomment <div> ...)
+6) how to easily add new people (and their pictures) to PEOPLE

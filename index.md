@@ -1,6 +1,5 @@
 ---
-layout: master
-include: index
-title: Welcome
+layout:    default
+include:   index
 permalink: /
 ---

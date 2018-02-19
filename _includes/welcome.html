@@ -1,0 +1,34 @@
+<!-- Promo Block -->
+<section class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall " data-options='{direction: "fromtop", animation_duration: 25, direction: "reverse"}'>
+  <!-- Parallax Image -->
+  <div class="divimage dzsparallaxer--target w-100 u-bg-overlay g-bg-black-opacity-0_3--after" 
+       style="height: 200%; background-image: url(assets/img/tromso/Tromso_Michal.jpg);">
+  </div>
+  <!-- End Parallax Image -->
+  <!-- Promo Block Content -->
+  <div class="container g-color-white text-center g-py-120">
+    <p class="g-font-weight-300 g-font-size-22 text-uppercase"></p>
+  </div>
+  <!-- Promo Block Content -->
+</section>
+<!-- End Promo Block -->
+
+<section class="g-py-100">
+  <div class="container">
+    <header class="g-mb-50 g-color-black">
+      <div class="text-center">
+        <h2 class="h3 g-color-black text-uppercase mb-2">
+           Welcome
+        </h2>
+        <div class="d-inline-block g-width-55 g-height-2 g-bg-primary mb-2"></div>
+      </div>
+      {% for text in site.data.welcome.text %}
+        <div class="g-mb-30">
+          <p class="lead mb-0">
+            {{ text.paragraph }}
+          </p>
+        </div>
+      {% endfor %}
+    </header>
+  </div>
+</section>

@@ -1,0 +1,49 @@
+<!-- Promo Block -->
+<section class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall " data-options='{direction: "fromtop", animation_duration: 25, direction: "reverse"}'>
+  <!-- Parallax Image -->
+  <div class="divimage dzsparallaxer--target w-100 u-bg-overlay g-bg-black-opacity-0_3--after" 
+       style="height: 200%; background-image: url(assets/img/tromso/Tromso_Michal.jpg);">
+  </div>
+  <!-- End Parallax Image -->
+  <!-- Promo Block Content -->
+  <div class="container g-color-white text-center g-py-120">
+    <p class="g-font-weight-300 g-font-size-22 text-uppercase"></p>
+  </div>
+  <!-- Promo Block Content -->
+</section>
+<!-- End Promo Block -->
+
+
+
+
+<!-- Team -->
+  <div class="container g-pt-100 g-pb-70">
+    <div class="text-center g-mb-100">
+      <h2 class="h1 g-font-weight-300">GREAT Team</h2>
+    </div>
+    {% for person in site.data.people.people %}
+      <div class="row justify-content-between">
+        <div class="col-lg-6 g-mb-30">
+          <em class="g-color-gray-light-v5 g-font-size-120 g-pos-abs g-top-minus-40 g-left-minus-15 g-z-index-minus-1">
+            &#8220;
+          </em>
+          <blockquote class="lead g-font-style-italic g-line-height-2 g-pl-30 g-mb-30 g-color-black">
+            {{ person.info }}
+          </blockquote>
+          <h4 class="h5 g-mb-0">&#8212;  {{ person.name }}</h4>
+          <span class="d-block g-color-gray-dark-v3">{{ person.position }}</span>
+        </div>
+        <div class="col-lg-5">
+          <img class="img-fluid w-100" src="{{ person.image }}" alt="Image Description">
+          </iv>
+        </div>
+      </div>
+      <hr class="g-brd-gray-light-v4 g-my-80">
+    {% endfor %}
+  </div>
+<!-- End Team -->
+
+
+
+
+

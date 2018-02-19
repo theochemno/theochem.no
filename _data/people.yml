@@ -1,0 +1,18 @@
+people:
+
+   - name:     Sara Anderson 
+     info:     I am an ambitious workaholic, but apart from that, pretty
+               simple person. Understanding who you are and what you want is my strategy for
+               your brand. I am always figuring out ways to capture your vision, so people can
+               get on board.  
+     position: Senior Developer 
+     image:    assets/img-temp/450x300/img1.jpg
+
+
+   - name:     Daniel Ramirez 
+     info:     I am an ambitious workaholic, but apart from that, pretty
+               simple person. Understanding who you are and what you want is my strategy for
+               your brand. I am always figuring out ways to capture your vision, so people can
+               get on board.  
+     position: Junior Developer 
+     image:    assets/img-temp/450x300/img2.jpg

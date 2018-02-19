@@ -1,13 +1,4 @@
 source:      .
 destination: ./_site
 layouts_dir: ./_layouts
-data_dir:    ./_data
-
-# https://github.com/jekyll/jekyll/issues/302
-permalink: pretty
-defaults:
-  -
-    scope:
-      type: "pages"
-    values:
-      permalink: /:path/:basename/
+permalink:   pretty

@@ -1,5 +1,5 @@
 ---
-layout: master
-include: publications
-title: Publications
+layout:    default
+include:   publications
+permalink: publications.html 
 ---
